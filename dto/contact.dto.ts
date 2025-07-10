@@ -1,11 +1,5 @@
-import { IsNotEmpty, IsString } from "class-validator";
-
-export class CreateContactDto {
-  @IsNotEmpty()
-  @IsString()
+export interface CreateContactDto {
   userName: string;
 
-  @IsNotEmpty()
-  @IsString()
   contactName: string;
 }
