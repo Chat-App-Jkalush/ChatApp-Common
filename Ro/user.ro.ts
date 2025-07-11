@@ -14,4 +14,8 @@ export interface UserResponse {
   firstName: string;
 
   lastName: string;
+
+  contacts: string[];
+
+  chats: Record<string, string>;
 }
