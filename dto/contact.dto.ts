@@ -3,3 +3,9 @@ export interface CreateContactDto {
 
   contactName: string;
 }
+
+export interface RemoveContactDto {
+  userName: string;
+
+  contactName: string;
+}
