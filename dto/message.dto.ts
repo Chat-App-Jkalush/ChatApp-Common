@@ -4,6 +4,8 @@ export interface Message {
   content: string;
 
   chatId: string;
+
+  createdAt?: Date;
 }
 
 export interface CreateMessageDto {

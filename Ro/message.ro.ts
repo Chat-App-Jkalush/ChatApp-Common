@@ -7,4 +7,5 @@ export interface MessageResponse {
 export interface messageInfoResponse {
   sender: string;
   content: string;
+  createdAt: Date;
 }
