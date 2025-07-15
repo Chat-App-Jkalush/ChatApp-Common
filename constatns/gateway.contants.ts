@@ -4,8 +4,10 @@ export const EVENTS = {
   NEW_MESSAGE: "newMessage",
   REPLY: "reply",
   JOIN_CHAT: "joinChat",
+  LEAVE_CHAT: "leaveChat",
 };
 
+export const SYSTEM = "SYSTEM";
 export const CLIENT_ORIGIN = "http://localhost:4200";
 
 export const DEFAULT_PORT_ORIGIN = "http://localhost:3002";
