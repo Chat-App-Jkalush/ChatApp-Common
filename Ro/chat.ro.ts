@@ -1,4 +1,4 @@
-export class ChatRo {
+export interface ChatRo {
   chatId: string;
   chatName: string;
   description: string;

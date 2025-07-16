@@ -17,3 +17,13 @@ export interface UpdateUserChats {
   chatId: string;
   chatName: string;
 }
+
+export interface DmExitsDto {
+  userName1: string;
+  userName2: string;
+}
+
+export interface DeleteDmDto {
+  userName1: string;
+  userName2: string;
+}
