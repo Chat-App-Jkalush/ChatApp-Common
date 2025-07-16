@@ -5,6 +5,8 @@ export const EVENTS = {
   REPLY: "reply",
   JOIN_CHAT: "joinChat",
   LEAVE_CHAT: "leaveChat",
+  IS_ONLINE: "isOnline",
+  GET_ONLINE_USERS: "getOnlineUsers",
 };
 
 export const SYSTEM = "SYSTEM";
