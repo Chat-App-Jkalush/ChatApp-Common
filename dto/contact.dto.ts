@@ -9,3 +9,8 @@ export interface RemoveContactDto {
 
   contactName: string;
 }
+
+export interface ContactOnlineStatus {
+  userName: string;
+  isOnline: boolean;
+}
