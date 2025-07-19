@@ -1,1 +1,14 @@
-{}
+{
+  "name": "common",
+  "version": "1.0.0",
+  "description": "Common types and constants for chat app",
+  "main": "index.ts",
+  "types": "index.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
