@@ -12,6 +12,11 @@ export namespace CommonRo {
       firstName: string;
       lastName: string;
     }
+
+    export interface PaginatedContacts {
+      contacts: string[];
+      total: number;
+    }
   }
 
   export namespace ChatRo {
@@ -50,6 +55,15 @@ export namespace CommonRo {
     export interface ChatsUsersRo {
       chatId: string;
       userId: string;
+    }
+  }
+
+  export namespace DataCookie {
+    export interface UserCookieRo {
+      userName: string;
+      cookie: string;
+      latestChatId: string;
+      chats?: any[];
     }
   }
 }
