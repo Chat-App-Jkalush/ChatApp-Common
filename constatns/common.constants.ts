@@ -17,6 +17,7 @@ export namespace CommonConstants {
       CONTACT_ONLINE_STATUS: "contactOnlineStatus",
       JOIN_NEW_CHAT_CONFIRMATION: "joinNewChatConfirmation",
       ONLINE_USERS_LIST: "onlineUsersList",
+      ADDED_TO_CHAT: "addedToChat",
     } as const;
 
     export const SYSTEM: string = "SYSTEM";
