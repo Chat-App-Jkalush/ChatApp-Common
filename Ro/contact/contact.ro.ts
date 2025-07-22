@@ -1,4 +1,5 @@
 export interface ContactRo {
   userName: string;
-  contactName: string;
+  firstName: string;
+  lastName: string;
 }
