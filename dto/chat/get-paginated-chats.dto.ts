@@ -1,4 +1,4 @@
-export interface GetContactsDto {
+export interface GetPaginatedChatsDto {
   userName: string;
   page: number;
   pageSize: number;
