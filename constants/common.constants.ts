@@ -26,7 +26,7 @@ export namespace CommonConstants {
   }
 
   export namespace CookiesConstants {
-    export const EXPERATION_TIME_STRING: string = "7d";
-    export const EXPERATION_TIME_NUMBER: number = 7 * 24 * 60 * 60 * 1000;
+    export const EXPIRATION_TIME_STRING: string = "7d";
+    export const EXPIRATION_TIME_NUMBER: number = 7 * 24 * 60 * 60 * 1000;
   }
 }
